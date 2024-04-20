@@ -1,0 +1,1024 @@
+Testing the relation interface
+
+db.destroy. unlink returned error
+
+insert 50 records into dummy.02
+
+Start an insert scan which will have the side effect of opening dummy.02 
+opening file dummy.02
+invoking heapfile destructor on file dummy.02
+inserted 50 records into file dummy.02 successfully
+
+
+pull 11th record from file dummy.02 using file->getRecord() 
+opening file dummy.02
+getRecord() tests passed successfully
+invoking heapfile destructor on file dummy.02
+scan file dummy.02 
+opening file dummy.02
+
+nextPageNo: 2
+curRec,pageNo: -1 slotNo: -1
+curRec: 2 0
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 0
+curRec: 2 1
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 1
+curRec: 2 2
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 2
+curRec: 2 3
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 3
+curRec: 2 4
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 4
+curRec: 2 5
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 5
+curRec: 2 6
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 6
+curRec: 2 7
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 7
+curRec: 2 8
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 8
+curRec: 2 9
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 9
+curRec: 2 10
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 10
+curRec: 2 11
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 11
+curRec: 2 12
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 12
+curRec: 3 0
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 0
+curRec: 3 1
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 1
+curRec: 3 2
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 2
+curRec: 3 3
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 3
+curRec: 3 4
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 4
+curRec: 3 5
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 5
+curRec: 3 6
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 6
+curRec: 3 7
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 7
+curRec: 3 8
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 8
+curRec: 3 9
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 9
+curRec: 3 10
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 10
+curRec: 3 11
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 11
+curRec: 3 12
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 12
+curRec: 4 0
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 0
+curRec: 4 1
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 1
+curRec: 4 2
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 2
+curRec: 4 3
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 3
+curRec: 4 4
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 4
+curRec: 4 5
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 5
+curRec: 4 6
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 6
+curRec: 4 7
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 7
+curRec: 4 8
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 8
+curRec: 4 9
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 9
+curRec: 4 10
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 10
+curRec: 4 11
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 11
+curRec: 4 12
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 12
+curRec: 5 0
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 0
+curRec: 5 1
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 1
+curRec: 5 2
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 2
+curRec: 5 3
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 3
+curRec: 5 4
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 4
+curRec: 5 5
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 5
+curRec: 5 6
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 6
+curRec: 5 7
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 7
+curRec: 5 8
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 8
+curRec: 5 9
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 9
+curRec: 5 10
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 10
+scan file1 saw 50 records 
+invoking heapfile destructor on file dummy.02
+
+scan file dummy.02 
+opening file dummy.02
+
+nextPageNo: 2
+curRec,pageNo: -1 slotNo: -1
+curRec: 2 0
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 0
+curRec: 2 1
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 1
+curRec: 2 2
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 2
+curRec: 2 3
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 3
+curRec: 2 4
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 4
+curRec: 2 5
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 5
+curRec: 2 6
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 6
+curRec: 2 7
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 7
+curRec: 2 8
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 8
+curRec: 2 9
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 9
+curRec: 2 10
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 10
+curRec: 2 11
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 11
+curRec: 2 12
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 12
+curRec: 3 0
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 0
+curRec: 3 1
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 1
+curRec: 3 2
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 2
+curRec: 3 3
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 3
+curRec: 3 4
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 4
+curRec: 3 5
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 5
+curRec: 3 6
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 6
+curRec: 3 7
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 7
+curRec: 3 8
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 8
+curRec: 3 9
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 9
+curRec: 3 10
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 10
+curRec: 3 11
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 11
+curRec: 3 12
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 12
+curRec: 4 0
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 0
+curRec: 4 1
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 1
+curRec: 4 2
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 2
+curRec: 4 3
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 3
+curRec: 4 4
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 4
+curRec: 4 5
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 5
+curRec: 4 6
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 6
+curRec: 4 7
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 7
+curRec: 4 8
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 8
+curRec: 4 9
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 9
+curRec: 4 10
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 10
+curRec: 4 11
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 11
+curRec: 4 12
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 12
+curRec: 5 0
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 0
+curRec: 5 1
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 1
+curRec: 5 2
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 2
+curRec: 5 3
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 3
+curRec: 5 4
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 4
+curRec: 5 5
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 5
+curRec: 5 6
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 6
+curRec: 5 7
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 7
+curRec: 5 8
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 8
+curRec: 5 9
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 9
+curRec: 5 10
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 10
+scan file1 saw 50 records 
+invoking heapfile destructor on file dummy.02
+
+pull every 7th record from file dummy.02 using file->getRecord() 
+opening file dummy.02
+getRecord() tests passed successfully
+invoking heapfile destructor on file dummy.02
+
+scan file deleting all records whose i field is odd
+opening file dummy.02
+
+nextPageNo: 2
+curRec,pageNo: -1 slotNo: -1
+curRec: 2 0
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 0
+curRec: 2 1
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 1
+curRec: 2 2
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 2
+curRec: 2 3
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 3
+curRec: 2 4
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 4
+curRec: 2 5
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 5
+curRec: 2 6
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 6
+curRec: 2 7
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 7
+curRec: 2 8
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 8
+curRec: 2 9
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 9
+curRec: 2 10
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 10
+curRec: 2 11
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 11
+curRec: 2 12
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 12
+curRec: 3 0
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 0
+curRec: 3 1
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 1
+curRec: 3 2
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 2
+curRec: 3 3
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 3
+curRec: 3 4
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 4
+curRec: 3 5
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 5
+curRec: 3 6
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 6
+curRec: 3 7
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 7
+curRec: 3 8
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 8
+curRec: 3 9
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 9
+curRec: 3 10
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 10
+curRec: 3 11
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 11
+curRec: 3 12
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 12
+curRec: 4 0
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 0
+curRec: 4 1
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 1
+curRec: 4 2
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 2
+curRec: 4 3
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 3
+curRec: 4 4
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 4
+curRec: 4 5
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 5
+curRec: 4 6
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 6
+curRec: 4 7
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 7
+curRec: 4 8
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 8
+curRec: 4 9
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 9
+curRec: 4 10
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 10
+curRec: 4 11
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 11
+curRec: 4 12
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 12
+curRec: 5 0
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 0
+curRec: 5 1
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 1
+curRec: 5 2
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 2
+curRec: 5 3
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 3
+curRec: 5 4
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 4
+curRec: 5 5
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 5
+curRec: 5 6
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 6
+curRec: 5 7
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 7
+curRec: 5 8
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 8
+curRec: 5 9
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 9
+curRec: 5 10
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 10
+deleted 25 records
+invoking heapfile destructor on file dummy.02
+
+scan file, counting number of remaining records
+opening file dummy.02
+
+nextPageNo: 2
+curRec,pageNo: -1 slotNo: -1
+curRec: 2 0
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 0
+curRec: 2 2
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 2
+curRec: 2 4
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 4
+curRec: 2 6
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 6
+curRec: 2 8
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 8
+curRec: 2 10
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 10
+curRec: 2 12
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 12
+curRec: 3 1
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 1
+curRec: 3 3
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 3
+curRec: 3 5
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 5
+curRec: 3 7
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 7
+curRec: 3 9
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 9
+curRec: 3 11
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 11
+curRec: 4 0
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 0
+curRec: 4 2
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 2
+curRec: 4 4
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 4
+curRec: 4 6
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 6
+curRec: 4 8
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 8
+curRec: 4 10
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 10
+curRec: 4 12
+
+nextPageNo: 4
+curRec,pageNo: 4 slotNo: 12
+curRec: 5 1
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 1
+curRec: 5 3
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 3
+curRec: 5 5
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 5
+curRec: 5 7
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 7
+curRec: 5 9
+
+nextPageNo: 5
+curRec,pageNo: 5 slotNo: 9
+invoking heapfile destructor on file dummy.02
+opening file dummy.02
+
+nextPageNo: 2
+curRec,pageNo: -1 slotNo: -1
+curRec: 2 0
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 0
+invoking heapfile destructor on file dummy.02
+scan saw 25 records 
+opening file dummy.03
+
+insert 50 variable-size records into dummy.03
+inserted 50 variable sized records successfully into dummy.03
+smallest record was 11 bytes, largest was 71 bytes
+invoking heapfile destructor on file dummy.03
+
+scan dummy.03 using the predicate < num/2 
+opening file dummy.03
+
+header file:
+firstPageNo:2 lastPageNo:4 pageCnt:3 recCnt:50
+Pages within this heapfile
+curPageNo:2 nextPageNo:3 slotCnt:-21
+dumping page content:
+this is printing out dumpPage()
+
+curPage = 2, nextPage = 3
+freePtr = 919,  freeSpace = 1, slotCnt = -21
+each record in the page:
+data: 0  length:51
+RID.pageNo 2RID.slotNo 0
+data: 1  length:46
+RID.pageNo 2RID.slotNo 1
+data: 2  length:13
+RID.pageNo 2RID.slotNo 2
+data: 3  length:17
+RID.pageNo 2RID.slotNo 3
+data: 4  length:29
+RID.pageNo 2RID.slotNo 4
+data: 5  length:59
+RID.pageNo 2RID.slotNo 5
+data: 6  length:48
+RID.pageNo 2RID.slotNo 6
+data: 7  length:22
+RID.pageNo 2RID.slotNo 7
+data: 8  length:27
+RID.pageNo 2RID.slotNo 8
+data: 9  length:63
+RID.pageNo 2RID.slotNo 9
+data: 10  length:70
+RID.pageNo 2RID.slotNo 10
+data: 11  length:23
+RID.pageNo 2RID.slotNo 11
+data: 12  length:64
+RID.pageNo 2RID.slotNo 12
+data: 13  length:47
+RID.pageNo 2RID.slotNo 13
+data: 14  length:71
+RID.pageNo 2RID.slotNo 14
+data: 15  length:46
+RID.pageNo 2RID.slotNo 15
+data: 16  length:70
+RID.pageNo 2RID.slotNo 16
+data: 17  length:70
+RID.pageNo 2RID.slotNo 17
+data: 18  length:14
+RID.pageNo 2RID.slotNo 18
+data: 19  length:48
+RID.pageNo 2RID.slotNo 19
+data: 20  length:21
+RID.pageNo 2 RID.slotNo 20
+curPageNo:3 nextPageNo:4 slotCnt:-21
+dumping page content:
+this is printing out dumpPage()
+
+curPage = 3, nextPage = 4
+freePtr = 896,  freeSpace = 24, slotCnt = -21
+each record in the page:
+data: 21  length:42
+RID.pageNo 3RID.slotNo 0
+data: 22  length:23
+RID.pageNo 3RID.slotNo 1
+data: 23  length:69
+RID.pageNo 3RID.slotNo 2
+data: 24  length:38
+RID.pageNo 3RID.slotNo 3
+data: 25  length:12
+RID.pageNo 3RID.slotNo 4
+data: 26  length:12
+RID.pageNo 3RID.slotNo 5
+data: 27  length:29
+RID.pageNo 3RID.slotNo 6
+data: 28  length:55
+RID.pageNo 3RID.slotNo 7
+data: 29  length:71
+RID.pageNo 3RID.slotNo 8
+data: 30  length:53
+RID.pageNo 3RID.slotNo 9
+data: 31  length:32
+RID.pageNo 3RID.slotNo 10
+data: 32  length:46
+RID.pageNo 3RID.slotNo 11
+data: 33  length:54
+RID.pageNo 3RID.slotNo 12
+data: 34  length:37
+RID.pageNo 3RID.slotNo 13
+data: 35  length:63
+RID.pageNo 3RID.slotNo 14
+data: 36  length:41
+RID.pageNo 3RID.slotNo 15
+data: 37  length:14
+RID.pageNo 3RID.slotNo 16
+data: 38  length:11
+RID.pageNo 3RID.slotNo 17
+data: 39  length:58
+RID.pageNo 3RID.slotNo 18
+data: 40  length:65
+RID.pageNo 3RID.slotNo 19
+data: 41  length:71
+RID.pageNo 3 RID.slotNo 20
+curPageNo:4 nextPageNo:-1 slotCnt:-8
+dumping page content:
+this is printing out dumpPage()
+
+curPage = 4, nextPage = -1
+freePtr = 406,  freeSpace = 566, slotCnt = -8
+each record in the page:
+data: 42  length:69
+RID.pageNo 4RID.slotNo 0
+data: 43  length:57
+RID.pageNo 4RID.slotNo 1
+data: 44  length:44
+RID.pageNo 4RID.slotNo 2
+data: 45  length:67
+RID.pageNo 4RID.slotNo 3
+data: 46  length:30
+RID.pageNo 4RID.slotNo 4
+data: 47  length:42
+RID.pageNo 4RID.slotNo 5
+data: 48  length:63
+RID.pageNo 4RID.slotNo 6
+data: 49  length:34
+RID.pageNo 4 RID.slotNo 7
+
+nextPageNo: 2
+curRec,pageNo: -1 slotNo: -1
+curRec: 2 0
+rec2Rid: 2 0
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 0
+curRec: 2 1
+rec2Rid: 2 1
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 1
+curRec: 2 2
+rec2Rid: 2 2
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 2
+curRec: 2 3
+rec2Rid: 2 3
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 3
+curRec: 2 4
+rec2Rid: 2 4
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 4
+curRec: 2 5
+rec2Rid: 2 5
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 5
+curRec: 2 6
+rec2Rid: 2 6
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 6
+curRec: 2 7
+rec2Rid: 2 7
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 7
+curRec: 2 8
+rec2Rid: 2 8
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 8
+curRec: 2 9
+rec2Rid: 2 9
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 9
+curRec: 2 10
+rec2Rid: 2 10
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 10
+curRec: 2 11
+rec2Rid: 2 11
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 11
+curRec: 2 12
+rec2Rid: 2 12
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 12
+curRec: 2 13
+rec2Rid: 2 13
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 13
+curRec: 2 14
+rec2Rid: 2 14
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 14
+curRec: 2 15
+rec2Rid: 2 15
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 15
+curRec: 2 16
+rec2Rid: 2 16
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 16
+curRec: 2 17
+rec2Rid: 2 17
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 17
+curRec: 2 18
+rec2Rid: 2 18
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 18
+curRec: 2 19
+rec2Rid: 2 19
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 19
+curRec: 2 20
+rec2Rid: 2 20
+
+nextPageNo: 2
+curRec,pageNo: 2 slotNo: 20
+curRec: 3 0
+rec2Rid: 3 0
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 0
+curRec: 3 1
+rec2Rid: 3 1
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 1
+curRec: 3 2
+rec2Rid: 3 2
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 2
+curRec: 3 3
+rec2Rid: 3 3
+
+nextPageNo: 3
+curRec,pageNo: 3 slotNo: 3
+curRec: 3 4
